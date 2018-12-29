@@ -104,7 +104,6 @@ function evensOnly() {
         return val % 2 == 0
     })
 }
-evensOnly(myNumbers);
 console.log(evenArray);
 
 /**
