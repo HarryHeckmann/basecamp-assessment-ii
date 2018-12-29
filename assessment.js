@@ -100,7 +100,7 @@ console.log(myArrayCopy);
 var myNumbers = [333, 1, 4, 5, 511, 34, 88, 77, 222];
 //DON'T TOUCH THE CODE ABOVE
 function evensOnly() {
-    evenArray = myNumbers.filter(function(val, i, arr){
+    evenArray = myNumbers.filter(function(val){
         return val % 2 == 0
     })
 }
