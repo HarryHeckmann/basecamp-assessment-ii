@@ -99,11 +99,14 @@ console.log(myArrayCopy);
 //DON'T TOUCH THE CODE BELOW
 var myNumbers = [333, 1, 4, 5, 511, 34, 88, 77, 222];
 //DON'T TOUCH THE CODE ABOVE
+var evenArray = [];
 function evensOnly() {
-    evenArray = myNumbers.filter(function(val){
-        return val % 2 == 0
+    evenArray = myNumbers.filter(function(val, i, arr){
+        return val % 2 === 0;
     })
+    return evenArray;
 }
+evensOnly(myNumbers);
 console.log(evenArray);
 
 /**
